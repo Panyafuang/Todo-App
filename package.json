@@ -1,0 +1,19 @@
+{
+    "name": "todo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "watch": "nodemon server",
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongodb": "^3.3.1",
+        "nodemon": "^1.19.1",
+        "sanitize-html": "^1.20.1"
+    }
+}
